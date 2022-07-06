@@ -1,0 +1,20 @@
+public class condicionaSwitch {
+    public static void main(String[] args) {
+        String estacion="PRIMAVERA";
+
+        switch (estacion){
+            case "VERANO":
+                System.out.println("VERANO");
+            break;
+            case "INVIERNO":
+                System.out.println("INVIERNO");
+                break;
+            case "OTOÑO":
+                System.out.println("OTOÑO");
+                break;
+            default:
+                System.out.println(estacion);
+
+        }
+    }
+}
